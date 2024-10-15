@@ -1,0 +1,7 @@
+.match h1{
+    text-decoration: none;
+}
+.match img{
+    border-radius: 100%;
+    padding-top: 2px;
+}

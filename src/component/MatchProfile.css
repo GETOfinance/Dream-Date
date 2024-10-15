@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.containerMarginTop{
+    display: flex;
+    margin-top: 10%;
+    font-family: 'Oswald', sans-serif;
+    max-height: 100vh;
+}
+.containerMarginTop {
+    font-family: 'Oswald', sans-serif;
+}
+.containerMarginTop1 {
+    background: black;
+}
+.buttonMargin {
+    padding: 1.1rem;
+    border-radius: 20px;
+    margin-left: 1.5rem;
+    margin-top: 1.2rem;
+}
+.vcInput {
+    padding: 1.1rem;
+    border-radius: 1.1rem;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#containerJam {
+    margin-right: 60em;
+    border: 2px solid white;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    overflow-y: scroll;
+}
+
+.headerValues {
+    display: flex;
+    justify-content: start;
+    padding: 0.6em;
+}

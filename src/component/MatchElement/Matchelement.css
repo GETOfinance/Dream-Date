@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .rotateProfileElementEaseInOut {
+    transform: rotate(-1000deg);
+    transition: transform 1s ease-in-out;
+  }
+  .rotateProfileElement {
+    transition: transform 1s ease-in-out;
+    transform: rotate(1000deg);
+  }
+
+  .card {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    top: 0;
+    left: 25%;
+    margin-top: 15%;
+    box-shadow: 0 35px 65px rgb(6 34 70 / 60%);
+    overflow: hidden;
+    }
+  .card img {
+    width: 100%;
+    transition: 0.5s;
+  }
+  #purpleHover {
+    background-color: #8758FF;
+    width: 70%;
+    position: absolute;
+    bottom: 17px;
+    right: 0%;
+    padding: 10px;
+    color: #ffffff;
+    text-align: start;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    transform: skew(-5deg);
+    transition: 0.3s;
+  }
+  #whiteHover {
+    background-color: #ffffff;
+    width: 70%;
+    padding: 12px 0;
+    text-align: start;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    position: absolute;
+    right: -85%;
+    bottom: 37px;
+    transform: skew(-5deg);
+    transition: 0.3s;
+  }
+  .card:hover #purpleHover
+  {
+    right: -75%;
+  }
+  .card:hover #whiteHover {
+    right: -2%;
+  }
+  .card:hover img {
+    transform: scale(1.15);
+    filter: contrast(120%);
+  }
